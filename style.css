@@ -1,0 +1,83 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* applying to all elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+/* body */
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+
+/* Navigation bar */
+
+nav {
+    background: rgb(38, 89, 255);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem 1rem 4rem;
+}
+
+
+/* First Container */
+
+.container-one {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container-one {
+    color: white;
+    display: flex;
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: -.2rem;
+}
+
+.sub-container-one h2 {
+    padding: 0 -.5rem 0 1rem;
+    margin: 0rem 0;
+}
+
+.divider {
+    background: white;
+    width: .08rem;
+    height: 2.4rem;
+    margin: .3rem 1rem;
+}
+
+.sub-container-one img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.sub-container-two {
+    color: white;
+}
+
+.sub-container-two p {
+    margin: .8rem 0;
+}
+
+
+/* Second Container */
+
+.container-two {
+    margin-left: auto;
+}
+
+.container-two img {
+    width: 1.7rem;
+    margin: .6rem 0;
+}
